@@ -4,11 +4,15 @@ import java.util.List;
 
 public class TextRauschen {
 
-	public void addEvenValues(List<Integer> list1, List<Integer> list2) {
-		for (Integer next : list1) {
+	public void addEvenValues(List<Integer> input, List<Integer> output) {
+		for (Integer next : input) {
 			if (next % 2 == 0) {
-				list2.add(next);
+				output.add(next);
 			}
 		}
+	}
+	
+	public boolean equals(Object object, Object anotherObject) {
+		return false;
 	}
 }
