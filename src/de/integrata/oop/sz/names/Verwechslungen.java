@@ -13,6 +13,9 @@ public class Verwechslungen {
 			a = O1;
 		else
 			l = 01;
+		
+		long x = 10l;
+		long y = 10L;
 	}
 
 }
